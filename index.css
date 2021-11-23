@@ -193,6 +193,10 @@ label {
   .main-wrapper {
     align-items: center;
   }
+  .side-img img {
+    width: 300px;
+    height: auto;
+  }
 }
 @media screen and (max-width: 600px) {
 }
