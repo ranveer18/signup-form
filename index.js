@@ -11,10 +11,6 @@ var toggleMenu = () => {
 
 const submitForm = document.getElementById("submit-form");
 
-submitForm.addEventListener("click", function () {
-  formValidation();
-});
-
 function formValidation() {
   let x = document.forms["signup"]["fname"].value;
   if (x == "") {
@@ -40,12 +36,11 @@ function formValidation() {
     alert("Password must be atleast 8 Characters long");
     return false;
   }
-  let x2 = document.forms["signup"]["password2"].value;
+  var x2 = document.forms["signup"]["password2"].value;
   if (x2 == "" || x != x2) {
     alert("Password does not matched");
-    console.log("Before False");
     return false;
   }
-
-  return false;
+  alert("Sign up successful");
+  return true;
 }

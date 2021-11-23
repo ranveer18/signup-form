@@ -38,7 +38,12 @@
         </div>
         <div class="form-container">
           <div class="form-container-wrapper">
-            <form name="signup" id="form">
+            <form
+              name="signup"
+              id="form"
+              method="post"
+              onsubmit="return formValidation()"
+            >
               <h1>Sign Up</h1>
               <span>
                 <i class="fa-solid fa-user"></i>
@@ -80,7 +85,7 @@
                   required
                 />
               </span>
-              <button type="button" value="Submit" id="submit-form">
+              <button type="submit" value="Submit" id="submit-form">
                 submit
               </button>
               <br />
@@ -104,5 +109,7 @@
       </div>
     </main>
     <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </body>
 </html>
