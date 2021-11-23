@@ -16,7 +16,7 @@ a {
 .nav-bar ul {
   list-style: none;
   display: flex;
-  padding: 0 10px;
+  /* padding: 0 10px; */
   background-color: #333;
   height: 60px;
   margin: 0;
@@ -36,8 +36,7 @@ a {
   display: none;
 }
 main {
-  height: calc(100vh - 60px);
-  width: 100vw;
+  /* height: calc(100vh - 60px); */
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -54,7 +53,7 @@ main {
   height: 450px;
 }
 form {
-  width: 500px;
+  /* width: 500px; */
   background-color: #fff;
   border: 1px solid #d5d5d5;
   padding: 30px 50px;
@@ -108,7 +107,7 @@ label {
   font-size: 20px;
   cursor: pointer;
   border-radius: 5px;
-  width: 300px;
+  width: 250px;
 }
 #submit-form:hover {
   background-color: #35584c;
@@ -195,7 +194,8 @@ label {
     align-items: center;
   }
 }
-
+@media screen and (max-width: 600px) {
+}
 @media screen and (max-width: 600px) {
   .fa-bars {
     color: #fff;
