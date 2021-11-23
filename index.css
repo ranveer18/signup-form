@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #d0d0d0;
+  background-color: #ededed;
   margin: 0;
   padding: 0;
 }
@@ -76,6 +76,16 @@ form span i {
   font-size: 20px;
   color: #666;
 }
+#check-box {
+  width: 16px;
+  height: 16px;
+}
+b {
+  text-decoration: underline;
+}
+.check-box {
+  margin-bottom: 20px;
+}
 input {
   padding: 5px;
   height: 35px;
@@ -97,7 +107,13 @@ label {
   box-sizing: content-box;
   font-size: 20px;
   cursor: pointer;
+  border-radius: 5px;
+  width: 300px;
 }
+#submit-form:hover {
+  background-color: #35584c;
+}
+
 .login-with {
   display: flex;
   flex-direction: column;
@@ -107,6 +123,11 @@ label {
   justify-content: space-evenly;
   background-color: #fff;
   margin-bottom: 15px;
+  cursor: pointer;
+}
+.already {
+  margin-top: 25px;
+  font-size: 15px;
 }
 .line-parent {
   width: 100%;

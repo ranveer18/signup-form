@@ -12,7 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Document</title>
+    <title>Sign Up</title>
   </head>
   <body>
     <header>
@@ -85,6 +85,15 @@
                   required
                 />
               </span>
+              <div class="check-box">
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  id="check-box"
+                  required
+                />I agree all statement in
+                <a href="#"><b>Terms of Service</b></a>
+              </div>
               <button type="submit" value="Submit" id="submit-form">
                 submit
               </button>
@@ -97,10 +106,13 @@
                   <div class="line"></div>
                 </div>
                 <div class="login-with-google">
-                  <a>
+                  <a href="#">
                     <i class="fa-brands fa-google"></i>
                     <span>Sign in with Google</span>
                   </a>
+                </div>
+                <div class="already">
+                  <a href="#">Have already an account? <b>Login</b></a>
                 </div>
               </div>
             </form>

@@ -9,7 +9,12 @@ var toggleMenu = () => {
   }
 };
 
-const submitForm = document.getElementById("submit-form");
+// const submitForm = document.getElementById("submit-form");
+
+// submitForm.addEventListener("onsubmit", function () {
+//   console.log("Hello");
+//   return formValidation();
+// });
 
 function formValidation() {
   let x = document.forms["signup"]["fname"].value;
